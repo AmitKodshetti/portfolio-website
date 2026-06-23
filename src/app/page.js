@@ -61,13 +61,18 @@ return ( <div className="relative min-h-screen bg-gradient-to-br from-slate-950 
     Key Achievements
   </h2>
 
-  <div className="space-y-3 text-slate-300">
-    <p>✓ Automated processing of 365 daily stock dump files using Excel VBA</p>
-    <p>✓ Built Dictionary-based ERP validation and state mapping framework</p>
-    <p>✓ Managed pricing analytics for 5000+ Amazon marketplace SKUs</p>
-    <p>✓ Developed MIS dashboards and KPI reporting solutions</p>
-    <p>✓ Streamlined reporting workflows through automation and data validation</p>
-  </div>
+  <div className="bg-slate-900/80 rounded-3xl p-6 border border-slate-800 mt-8">
+  <h2 className="text-2xl font-bold mb-4">
+    Key Achievements
+  </h2>
+
+  <ul className="space-y-2 text-slate-300">
+    <li>✓ Automated processing of 365 daily stock dump files using Excel VBA</li>
+    <li>✓ Built Dictionary-based ERP validation and state mapping framework</li>
+    <li>✓ Managed pricing analytics for 5000+ Amazon marketplace SKUs</li>
+    <li>✓ Developed MIS dashboards and KPI reporting solutions</li>
+  </ul>
+</div>
 </div>
     <p className="max-w-3xl text-slate-400 leading-relaxed mx-auto md:mx-0">
       Data-driven MIS professional with 3+ years of experience in reporting,
