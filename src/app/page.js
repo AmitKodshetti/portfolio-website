@@ -31,9 +31,44 @@ return ( <div className="relative min-h-screen bg-gradient-to-br from-slate-950 
     </h1>
 
     <p className="text-xl text-slate-300 mb-6">
-      Assistant Manager – MIS | Data Analysis & Business Insights
-    </p>
+  Assistant Manager – MIS | Data Analysis & Business Insights
+</p>
 
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+  <div className="bg-slate-900/80 rounded-2xl p-4 text-center border border-slate-800">
+    <h3 className="text-2xl font-bold text-cyan-400">3+</h3>
+    <p className="text-sm text-slate-400">Years Experience</p>
+  </div>
+
+  <div className="bg-slate-900/80 rounded-2xl p-4 text-center border border-slate-800">
+    <h3 className="text-2xl font-bold text-cyan-400">365</h3>
+    <p className="text-sm text-slate-400">Files Automated</p>
+  </div>
+
+  <div className="bg-slate-900/80 rounded-2xl p-4 text-center border border-slate-800">
+    <h3 className="text-2xl font-bold text-cyan-400">5000+</h3>
+    <p className="text-sm text-slate-400">SKUs Analyzed</p>
+  </div>
+
+  <div className="bg-slate-900/80 rounded-2xl p-4 text-center border border-slate-800">
+    <h3 className="text-2xl font-bold text-cyan-400">10+</h3>
+    <p className="text-sm text-slate-400">Automation Solutions</p>
+  </div>
+</div>
+
+<div className="bg-slate-900/80 backdrop-blur-md rounded-3xl p-6 shadow-2xl border border-slate-800 mb-8">
+  <h2 className="text-2xl font-bold mb-4">
+    Key Achievements
+  </h2>
+
+  <div className="space-y-3 text-slate-300">
+    <p>✓ Automated processing of 365 daily stock dump files using Excel VBA</p>
+    <p>✓ Built Dictionary-based ERP validation and state mapping framework</p>
+    <p>✓ Managed pricing analytics for 5000+ Amazon marketplace SKUs</p>
+    <p>✓ Developed MIS dashboards and KPI reporting solutions</p>
+    <p>✓ Streamlined reporting workflows through automation and data validation</p>
+  </div>
+</div>
     <p className="max-w-3xl text-slate-400 leading-relaxed mx-auto md:mx-0">
       Data-driven MIS professional with 3+ years of experience in reporting,
       automation, dashboarding, business intelligence, and process
@@ -179,7 +214,7 @@ return ( <div className="relative min-h-screen bg-gradient-to-br from-slate-950 
             rel="noopener noreferrer"
             className="text-blue-400 hover:underline"
           >
-            View Project →
+            View Case Study →
           </a>
         </div>
       ))}
