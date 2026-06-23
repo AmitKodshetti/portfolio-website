@@ -1,4 +1,5 @@
 export default function Portfolio() {
+  <h1>TEST PORTFOLIO</h1>
 const projects = [
 {
 title: "Enterprise Excel VBA Automation Framework",
@@ -230,7 +231,6 @@ return ( <div className="relative min-h-screen bg-gradient-to-br from-slate-950 
   </section>
 
 </div>
-```
 
 );
 }
